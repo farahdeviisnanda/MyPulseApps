@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:id="@+id/tv1"
+                android:background="@drawable/react1"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:text="Sign Up"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#fb0505"
+                android:textSize="16sp"
+                android:textAlignment="textStart"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="15dp"
+        android:text="Username: *"
+        android:paddingLeft="10dp"
+        android:id="@+id/tv3"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_orange"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"
+        android:hint="Username"
+        android:background="@drawable/field_bg_rectangle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="15dp"
+        android:text="Email Address: *"
+        android:paddingLeft="10dp"
+        android:id="@+id/tv4"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_orange"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_email"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:background="@drawable/field_bg_rectangle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="15dp"
+        android:text="Password: *"
+        android:paddingLeft="10dp"
+        android:id="@+id/tv5"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_orange"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_passwordreg"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:background="@drawable/field_bg_rectangle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="15dp"
+        android:text="Confirm Password: *"
+        android:paddingLeft="10dp"
+        android:id="@+id/tv6"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_orange"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_confirmpasswordreg"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/field_bg_rectangle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Provide a password for the new account in both fields"
+        android:textSize="11dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/tfConfirm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"/>
+
+    <Button
+        android:layout_width="266dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="create a new account"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:id="@+id/btnregaccount"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"/>
+
+</LinearLayout>

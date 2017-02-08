@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">3D Cell</string>
+
+    <string name="message">Are you sure to exit?</string>
+    <string name="dismiss">Are you sure to cancel this post?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="loading">Loading</string>
+    <string name="error_invalid_password">Error invalid password</string>
+    <string name="error_field_required">Error field required</string>
+    <string name="error_invalid_email">Error invalid email</string>
+
+    <string-array name="category_array">
+        <item>--Choose Category--</item>
+    </string-array>
+
+    <string-array name="nominal_array">
+        <item>--Choose Nominal--</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="provider_array">
+        <item>--Choose Provider--</item>
+        <item>Indosat</item>
+    </string-array>
+
+    <string-array name="price_array">
+        <item>Price</item>
+        <item>10500</item>
+    </string-array>
+
+    <string-array name="day_array">
+        <item>Day</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Month</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+
+    <string-array name="year_array">
+        <item>Years</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="phone_array">
+        <item>+</item>
+        <item>+62</item>
+    </string-array>
+
+</resources>

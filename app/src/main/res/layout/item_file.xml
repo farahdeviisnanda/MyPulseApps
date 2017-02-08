@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnmenu"
+            android:background="@drawable/icon_menu"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"/>
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView"
+            android:layout_weight="9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            android:text="Rekapitulasi"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:text="Insert"
+            android:id="@+id/btnreact"
+            android:layout_column="17"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:gravity="center"
+            android:height="2dp"
+            android:width="8dp"
+            android:visibility="visible"
+            android:textAppearance="@android:style/TextAppearance.Holo.Widget.IconMenu.Item"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:id="@+id/iduser"
+        android:layout_weight="0.3"
+        android:textColor="#ff010101" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_weight="0.7"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_weight="0.5"
+        android:textColor="#ff010101" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nominal"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_weight="0.5"
+        android:textColor="#ff010101"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/harga"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_weight="0.5"
+        android:textColor="#ff010101"/>
+
+</LinearLayout>
